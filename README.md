@@ -3,7 +3,7 @@ This script outputs the official translated name of all the countries using a tr
 ## Installation
 To install this script you need to clone the repository:
 ```
-git clone https://github.com/HasanNofal/Internship-test.git
+git clone https://github.com/HasanNofal/Internship-test2.git
 ```
 ## Usage
 To run this script:

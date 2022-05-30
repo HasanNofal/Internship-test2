@@ -1,6 +1,6 @@
 import sys
 import json
-f = open(".\countries.json", "r")
+f = open("./countries.json", "r")
 data = f.read()
 countries_list = json.loads(data)
 f.close()

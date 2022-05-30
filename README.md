@@ -8,7 +8,7 @@ git clone https://github.com/HasanNofal/Internship-test2.git
 ## Usage
 To run this script:
 ```
-python maim.py {{translations}}
+python main.py {{translations}}
 ```
 The {{translations}} value is the translation key. It can be any of those defined here:
 - cym

@@ -9,10 +9,10 @@ if num_of_parameters == 0:
     print("The parameter is missing from the cli")
 elif num_of_parameters == 1:
     translation_key = sys.argv[1]
-    for country in countries_list:
-        try:
+    try:
+        for country in countries_list:
             print(country["translations"][translation_key]["official"])
-        except:
-            print("The translation key does not exist")
+    except:
+        print("The translation key does not exist")
 else:
     print("Please enter one translation key only")
